@@ -1,6 +1,6 @@
 # 按钮组件
 
-<el-button type="success">成功按钮<el/-button>
+<el-button type="success">成功按钮</el-button>
 
 <!-- 代码展示 -->
 
