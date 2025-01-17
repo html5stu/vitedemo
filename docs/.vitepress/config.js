@@ -1,21 +1,32 @@
-// config.js
 export default {
-  title: 'vitepress', // 博客的标题
-  description: 'xxxx 的个人博客', // 博客的介绍
-  base: '/vitedemo/', // 这里填github的仓库名称
+  base: '/vitedemo/',
   themeConfig: {
+    siteTitle: 'DLX UI',
     nav: [
-      // 页面右上角的导航
-      { text: 'vue', link: 'https://cn.vuejs.org/' },
-      {
-        text: '博客文档',
-        items: [
-          // 可以配置成下拉
-          { text: 'react', link: '' },
-          { text: 'elementplus', link: '' },
-          { text: 'node', link: '' },
-        ],
-      },
+      { text: '指南', link: '/guide/installation' },
+      { text: '组件', link: '/components/button' },
+    ],
+    // 侧边栏
+    sidebar: {
+      '/guide/': [
+        {
+          items: [
+            { text: '安装', link: '/guide/installation' },
+            { text: '快速开始', link: '/guide/quickstart' },
+          ],
+        },
+      ],
+      '/components/': [
+        {
+          items: [
+            { text: '按钮', link: '/components/button/' },
+            { text: '标签', link: '/components/tag/' },
+          ],
+        },
+      ],
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://gitee.com/chen_pengchao/dlx-ui' },
     ],
   },
 }
