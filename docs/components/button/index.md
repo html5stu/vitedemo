@@ -1,17 +1,13 @@
 # 按钮组件
 
-<dlx-button type="success">成功按钮</dlx-button>
-<dlx-button type="danger">危险按钮</dlx-button>
-<dlx-button type="warning">警告按钮</dlx-button>
+<el-button type="success">成功按钮<el/-button>
 
 <!-- 代码展示 -->
 
 ::: details 显示代码
 
 ```html
-<dlx-button type="success">成功按钮</dlx-button>
-<dlx-button type="danger">危险按钮</dlx-button>
-<dlx-button type="warning">警告按钮</dlx-button>
+<el-button type="success">成功按钮</el-button>
 ```
 
 :::
