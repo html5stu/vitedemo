@@ -1,13 +1,13 @@
 # 按钮组件
 
-<el-button type="success">成功按钮</el-button>
+<dlx-button type='primary'>primary 按钮</dlx-button>
 
 <!-- 代码展示 -->
 
 ::: details 显示代码
 
 ```html
-<el-button type="success">成功按钮</el-button>
+<dlx-button type="primary">primary按钮</dlx-button>
 ```
 
 :::
